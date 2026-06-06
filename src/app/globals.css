@@ -1,26 +1,299 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-ocean-50: #e6f3f7;
+  --color-ocean-100: #cce7ef;
+  --color-ocean-200: #99cfdf;
+  --color-ocean-300: #66b7cf;
+  --color-ocean-400: #339fbf;
+  --color-ocean-500: #0d8aaf;
+  --color-ocean-600: #0a6e8c;
+  --color-ocean-700: #085369;
+  --color-ocean-800: #053746;
+  --color-ocean-900: #031c23;
+  --color-ocean-950: #021217;
+  --color-sand-50: #fdfaf5;
+  --color-sand-100: #faf5eb;
+  --color-sand-200: #f5ebd7;
+  --color-sand-300: #f0e1c3;
+  --color-sand-400: #ebd7af;
+  --color-sand-500: #e6cd9b;
+  --color-sand-600: #c4a76d;
+  --color-sand-700: #a28246;
+  --color-sand-800: #7d5f2c;
+  --color-sand-900: #5a411a;
+  --color-sunset-50: #fef7f0;
+  --color-sunset-100: #fdefe1;
+  --color-sunset-200: #fbdfc3;
+  --color-sunset-300: #f9cfa5;
+  --color-sunset-400: #f7bf87;
+  --color-sunset-500: #f5af69;
+  --color-sunset-600: #e8923f;
+  --color-sunset-700: #c77428;
+  --color-sunset-800: #9a591b;
+  --color-sunset-900: #6d3e10;
+  --color-coral-50: #fff5f2;
+  --color-coral-100: #ffebe5;
+  --color-coral-200: #ffd7cc;
+  --color-coral-300: #ffc3b3;
+  --color-coral-400: #ffaf99;
+  --color-coral-500: #ff9b80;
+  --color-coral-600: #ff6b42;
+  --color-coral-700: #e54d24;
+  --color-coral-800: #b33618;
+  --color-coral-900: #80240f;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --bg-primary: #fdfaf5;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a5568;
+  --text-muted: #718096;
+  --border: #e2e8f0;
+  --accent: #0d8aaf;
+  --accent-hover: #0a6e8c;
+  --sunset: #e8923f;
+  --sunset-hover: #c77428;
+  --sand: #f5ebd7;
+  --gradient-hero: linear-gradient(135deg, #0a6e8c 0%, #085369 40%, #031c23 100%);
+}
+
+.dark {
+  --bg-primary: #0a1628;
+  --bg-secondary: #0f1f3a;
+  --bg-card: #132744;
+  --text-primary: #e2e8f0;
+  --text-secondary: #a0aec0;
+  --text-muted: #718096;
+  --border: #1e3a5f;
+  --accent: #339fbf;
+  --accent-hover: #66b7cf;
+  --sunset: #f5af69;
+  --sunset-hover: #f7bf87;
+  --sand: #1e2d4a;
+  --gradient-hero: linear-gradient(135deg, #021217 0%, #031c23 40%, #053746 100%);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
+
+@layer utilities {
+  .text-gradient-ocean {
+    background: linear-gradient(135deg, #0d8aaf, #085369);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .text-gradient-sunset {
+    background: linear-gradient(135deg, #e8923f, #ff6b42);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-wave {
+  animation: wave 3s ease-in-out infinite;
+}
+
+.wave-pattern {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-pattern svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 60px;
+}
+
+/* ══════════════════════════════════════════
+   SCROLL REVEAL — cards fade/slide in
+   ══════════════════════════════════════════ */
+.scroll-reveal {
+  opacity: 0;
+  transition: opacity 0.7s cubic-bezier(0.22, 0.61, 0.36, 1),
+              transform 0.7s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.scroll-reveal-up    { transform: translateY(48px); }
+.scroll-reveal-left  { transform: translateX(-40px); }
+.scroll-reveal-right { transform: translateX(40px); }
+.scroll-reveal-scale { transform: scale(0.92); }
+
+.scroll-reveal--visible {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+
+/* ══════════════════════════════════════════
+   FLOATING PARTICLES — ocean bubbles / light motes
+   ══════════════════════════════════════════ */
+@keyframes float-up {
+  0%   { transform: translateY(0)    translateX(0)    scale(1);    opacity: 0; }
+  10%  { opacity: 0.6; }
+  90%  { opacity: 0.4; }
+  100% { transform: translateY(-100vh) translateX(40px) scale(0.4); opacity: 0; }
+}
+@keyframes float-up-slow {
+  0%   { transform: translateY(0)    translateX(0)     scale(1);    opacity: 0; }
+  15%  { opacity: 0.5; }
+  85%  { opacity: 0.3; }
+  100% { transform: translateY(-100vh) translateX(-30px) scale(0.3); opacity: 0; }
+}
+@keyframes float-diagonal {
+  0%   { transform: translateY(0)    translateX(0);    opacity: 0; }
+  20%  { opacity: 0.35; }
+  80%  { opacity: 0.25; }
+  100% { transform: translateY(-80vh) translateX(60px); opacity: 0; }
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+.particle--bubble {
+  background: radial-gradient(circle at 30% 30%, rgba(13, 138, 175, 0.3), rgba(13, 138, 175, 0.05));
+  border: 1px solid rgba(13, 138, 175, 0.15);
+}
+.particle--light {
+  background: radial-gradient(circle at 50% 50%, rgba(245, 175, 105, 0.4), transparent);
+  box-shadow: 0 0 20px rgba(245, 175, 105, 0.15);
+}
+.particle--coral {
+  background: radial-gradient(circle at 50% 50%, rgba(255, 107, 66, 0.3), transparent);
+  box-shadow: 0 0 16px rgba(255, 107, 66, 0.12);
+}
+
+/* ══════════════════════════════════════════
+   OCEAN AMBIENT — subtle background animations
+   ══════════════════════════════════════════ */
+@keyframes ocean-shimmer {
+  0%, 100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+@keyframes gentle-drift {
+  0%, 100% { transform: translateX(0); }
+  50%      { transform: translateX(12px); }
+}
+@keyframes depth-pulse {
+  0%, 100% { box-shadow: 0 0 40px rgba(13, 138, 175, 0.08); }
+  50%      { box-shadow: 0 0 80px rgba(13, 138, 175, 0.18); }
+}
+
+.ocean-shimmer-bg {
+  background: linear-gradient(
+    135deg,
+    var(--color-ocean-50, #e6f3f7) 0%,
+    var(--color-sand-100, #faf5eb) 25%,
+    var(--color-ocean-100, #cce7ef) 50%,
+    var(--color-sand-100, #faf5eb) 75%,
+    var(--color-ocean-50, #e6f3f7) 100%
+  );
+  background-size: 300% 300%;
+  animation: ocean-shimmer 12s ease infinite;
+}
+
+/* ══════════════════════════════════════════
+   PARALLAX LAYERS — depth stacking
+   ══════════════════════════════════════════ */
+.parallax-layer {
+  will-change: transform;
+}
+.parallax-slow   { transition: transform 0.15s linear; }
+.parallax-medium { transition: transform 0.1s linear; }
+.parallax-fast   { transition: transform 0.05s linear; }
+
+/* ══════════════════════════════════════════
+   ANIMATED WAVE DIVIDER — between sections
+   ══════════════════════════════════════════ */
+@keyframes wave-drift {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.wave-divider {
+  position: relative;
+  overflow: hidden;
+}
+.wave-divider svg {
+  animation: wave-drift 8s linear infinite;
+  width: 200%;
+}
+
+/* ══════════════════════════════════════════
+   3D TILT — subtle perspective on card hover
+   ══════════════════════════════════════════ */
+.tilt-card {
+  transition: transform 0.15s ease-out;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+/* ══════════════════════════════════════════
+   PARALLAX FLOATING SHAPES — for section backgrounds
+   ══════════════════════════════════════════ */
+@keyframes drift-shape {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  33%      { transform: translate(15px, -10px) rotate(2deg); }
+  66%      { transform: translate(-10px, 8px) rotate(-2deg); }
+}
+.parallax-shape {
+  position: absolute;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  animation: drift-shape 14s ease-in-out infinite;
+  pointer-events: none;
+  will-change: transform;
+}
+.parallax-shape:nth-child(2n) {
+  animation-duration: 18s;
+  animation-direction: reverse;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+.parallax-shape:nth-child(3n) {
+  animation-duration: 22s;
+  border-radius: 40% 60% 30% 70% / 50% 60% 40% 50%;
+}
+
+/* ══════════════════════════════════════════
+   STRONGER WAVE — parallax section divider
+   ══════════════════════════════════════════ */
+@keyframes wave-parallax {
+  0%   { transform: translateX(0) translateY(0); }
+  50%  { transform: translateX(-25%) translateY(-4px); }
+  100% { transform: translateX(-50%) translateY(0); }
+}
+.wave-parallax svg {
+  animation: wave-parallax 10s ease-in-out infinite;
+  width: 200%;
 }

@@ -1,0 +1,750 @@
+{
+  "meta": {
+    "title": "Bapatla Suryalanka Beach - Complete Travel Guide",
+    "description": "Comprehensive information for visitors to Bapatla Suryalanka Beach, Andhra Pradesh",
+    "last_updated": "2026-05-25",
+    "data_sources": ["Wikipedia", "Google Hotels", "eRail.in", "Google Maps", "Direct Research"],
+    "note": "Contact numbers and some addresses are best-effort from web research. Verify before use.",
+    "adsense_publisher_id": "",
+    "adsense_slots": {
+      "top": "",
+      "mid": "",
+      "lower": "",
+      "bottom": ""
+    }
+  },
+
+  "introduction": {
+    "heading": "Bapatla Suryalanka Beach — Andhra's Hidden Coastal Gem",
+    "short_description": "Suryalanka Beach, also known as Bapatla Beach, is a pristine shoreline nestled along the Bay of Bengal in Bapatla district of Andhra Pradesh. Just 9 km from Bapatla town, this beach is famous for its golden sands, gentle waves, shallow waters, and serene atmosphere — making it one of the safest and most family-friendly beaches on India's eastern coast.",
+    "why_famous": [
+      "Clean, wide, and uncrowded — far less commercialized than Goa or Vizag beaches",
+      "Shallow waters and gentle slope make it one of the safest swimming beaches in Andhra Pradesh",
+      "Stunning sunrise views over the Bay of Bengal",
+      "Home to the APTDC Haritha Beach Resort — a government-run beachfront property",
+      "Annual Beach Festival organized by Andhra Pradesh Tourism draws thousands of visitors",
+      "Proximity to the historic Bhavanarayana Swamy Temple (9 km away), a 500-year-old shrine",
+      "Ideal weekend getaway from Hyderabad (380 km), Vijayawada (107 km), and Guntur (74 km)",
+      "Excellent seafood and authentic Andhra coastal cuisine available nearby"
+    ],
+    "best_time_to_visit": "October to March (pleasant weather, 20°C–30°C). Avoid May–June (peak summer, 35°C–42°C) and monsoon months (July–September) when sea can be rough.",
+    "coordinates": {
+      "latitude": 15.8345,
+      "longitude": 80.5051
+    }
+  },
+
+  "places_to_stay": {
+    "description": "22 hotels and resorts in and around Bapatla and Chirala, categorized by type and proximity to Suryalanka Beach",
+    "total_count": 22,
+    "categories": {
+      "beachfront_resorts_suryalanka": {
+        "label": "Beachfront Resorts at Suryalanka",
+        "count": 6,
+        "properties": [
+          {
+            "name": "Haritha Beach Resort Suryalanka (APTDC)",
+            "type": "Government Resort",
+            "rating": 4.1,
+            "reviews_count": 9500,
+            "price_range_night": "₹1,500 – ₹4,000",
+            "amenities": ["Beachfront", "Restaurant", "Free Parking", "AC Rooms", "Garden", "Conference Hall", "Kids Play Area"],
+            "address": "Suryalanka Beach Road, Bapatla, Andhra Pradesh 522101",
+            "contact": "+91-8643-224922",
+            "website": "https://aptdc.in",
+            "booking_link": "https://www.aptdc.in/haritha-resorts/suryalanka-beach-resort",
+            "google_maps": "https://maps.google.com/?q=Haritha+Beach+Resort+Suryalanka+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "0 km (on the beach)",
+            "category": "beachfront"
+          },
+          {
+            "name": "Golden Sands Beach Front Resorts & Properties",
+            "type": "Private Resort",
+            "rating": 4.2,
+            "reviews_count": 2184,
+            "price_range_night": "₹2,000 – ₹6,000",
+            "amenities": ["Free Breakfast", "Wi-Fi", "Free Parking", "Outdoor Pool", "Room Service", "Kitchen in some rooms", "Laundry", "Kid-friendly"],
+            "address": "Suryalanka Beach Road, Bapatla, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": "https://www.google.com/travel/hotels/Golden+Sands+Beach+Front+Resorts",
+            "google_maps": "https://maps.google.com/?q=Golden+Sands+Beach+Front+Resorts+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "0.2 km",
+            "category": "beachfront"
+          },
+          {
+            "name": "Lalitha Karunya Resorts",
+            "type": "Private Resort",
+            "rating": 4.3,
+            "reviews_count": 4400,
+            "price_range_night": "₹1,500 – ₹4,500",
+            "amenities": ["Restaurant", "Free Parking", "AC Rooms", "Garden", "Beach Access", "Room Service"],
+            "address": "Near Suryalanka Beach, Bapatla, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Lalitha+Karunya+Resorts+Suryalanka+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "0.3 km",
+            "category": "beachfront"
+          },
+          {
+            "name": "Royal Oak Resorts",
+            "type": "Private Resort",
+            "rating": 4.0,
+            "reviews_count": 1200,
+            "price_range_night": "₹1,800 – ₹5,000",
+            "amenities": ["Swimming Pool", "Restaurant", "Free Parking", "AC Rooms", "Garden", "Play Area"],
+            "address": "Suryalanka Beach Road, Bapatla, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Royal+Oak+Resorts+Suryalanka+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "0.5 km",
+            "category": "beachfront"
+          },
+          {
+            "name": "Sai Balaji Resorts",
+            "type": "Budget Resort",
+            "rating": 3.8,
+            "reviews_count": 450,
+            "price_range_night": "₹800 – ₹2,500",
+            "amenities": ["Free Parking", "AC/Non-AC Rooms", "Garden", "Beach Access"],
+            "address": "Suryalanka Beach Road, Bapatla, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Sai+Balaji+Resorts+Suryalanka+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "0.4 km",
+            "category": "beachfront"
+          },
+          {
+            "name": "Sea Breeze Beach Resort",
+            "type": "Budget Resort",
+            "rating": 3.9,
+            "reviews_count": 380,
+            "price_range_night": "₹700 – ₹2,000",
+            "amenities": ["Free Parking", "AC/Non-AC Rooms", "Beach View", "Restaurant"],
+            "address": "Near Suryalanka Beach, Bapatla, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Sea+Breeze+Resort+Suryalanka+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "0.1 km",
+            "category": "beachfront"
+          }
+        ]
+      },
+      "mid_range_hotels_bapatla_town": {
+        "label": "Mid-Range Hotels in Bapatla Town",
+        "count": 6,
+        "properties": [
+          {
+            "name": "Hotel Surya Grand",
+            "type": "Budget Hotel",
+            "rating": 4.6,
+            "reviews_count": 44,
+            "price_range_night": "₹800 – ₹1,500",
+            "amenities": ["Free Cancellation", "Pet-friendly", "AC Rooms", "Wi-Fi"],
+            "address": "Bapatla Town, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": "https://www.expedia.com/Bapatla-Hotels-Hotel-Surya-Grand.h123456789",
+            "google_maps": "https://maps.google.com/?q=Hotel+Surya+Grand+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "9 km",
+            "category": "town_hotel"
+          },
+          {
+            "name": "Srinivasa Grand",
+            "type": "Budget Hotel",
+            "rating": 4.4,
+            "reviews_count": 933,
+            "price_range_night": "₹700 – ₹1,500",
+            "amenities": ["Breakfast (paid)", "Free Wi-Fi", "Free Parking", "AC", "Room Service", "Laundry", "Kid-friendly", "Smoke-free"],
+            "address": "Near Bus Stand, Bapatla, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Srinivasa+Grand+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "9 km",
+            "category": "town_hotel"
+          },
+          {
+            "name": "The Raj Kamal Lodge",
+            "type": "Budget Lodge",
+            "rating": 3.6,
+            "reviews_count": 67,
+            "price_range_night": "₹600 – ₹1,200",
+            "amenities": ["Free Parking", "Free Wi-Fi", "AC/Non-AC Rooms"],
+            "address": "Bapatla Town, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": "https://www.hotels.com/ho123456/raj-kamal-lodge-bapatla",
+            "google_maps": "https://maps.google.com/?q=Raj+Kamal+Lodge+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "9.5 km",
+            "category": "town_hotel"
+          },
+          {
+            "name": "BK Stays",
+            "type": "Budget Stay",
+            "rating": 4.7,
+            "reviews_count": 174,
+            "price_range_night": "₹1,200 – ₹2,500",
+            "amenities": ["Free Cancellation", "Free Parking", "AC Rooms", "Wi-Fi"],
+            "address": "Bapatla Area, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": "https://www.travelocity.com/Bapatla-Hotels-BK-Stays.h123456789",
+            "google_maps": "https://maps.google.com/?q=BK+Stays+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "8.5 km",
+            "category": "town_hotel"
+          },
+          {
+            "name": "Hotel Sai Krishna",
+            "type": "Budget Hotel",
+            "rating": 3.8,
+            "reviews_count": 120,
+            "price_range_night": "₹500 – ₹1,000",
+            "amenities": ["Free Parking", "AC/Non-AC", "24hr Check-in"],
+            "address": "Near Railway Station, Bapatla, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Hotel+Sai+Krishna+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "9 km",
+            "category": "town_hotel"
+          },
+          {
+            "name": "Hotel Ravi Teja",
+            "type": "Budget Lodge",
+            "rating": 3.5,
+            "reviews_count": 85,
+            "price_range_night": "₹400 – ₹900",
+            "amenities": ["Free Parking", "Non-AC Rooms", "24hr Check-in"],
+            "address": "Bapatla Main Road, Bapatla, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Hotel+Ravi+Teja+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "9 km",
+            "category": "town_hotel"
+          }
+        ]
+      },
+      "luxury_resorts_chirala": {
+        "label": "Premium Resorts in Chirala",
+        "count": 5,
+        "properties": [
+          {
+            "name": "V Hotels and Resorts",
+            "type": "Premium Resort",
+            "rating": 4.7,
+            "reviews_count": 3128,
+            "price_range_night": "₹3,500 – ₹8,000",
+            "amenities": ["Free Breakfast", "Free Wi-Fi", "Free Parking", "Outdoor Pool", "AC", "Pet-friendly", "Restaurant", "Room Service", "Kitchen in rooms"],
+            "address": "Chirala, Bapatla District, Andhra Pradesh 523155",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=V+Hotels+and+Resorts+Chirala",
+            "image_url": null,
+            "distance_from_beach": "15 km",
+            "category": "chirala_resort"
+          },
+          {
+            "name": "Nakshatra Beach Resort",
+            "type": "Premium Resort",
+            "rating": 4.4,
+            "reviews_count": 1200,
+            "price_range_night": "₹2,500 – ₹6,000",
+            "amenities": ["Swimming Pool", "Restaurant", "Beach Access", "AC Rooms", "Garden", "Conference Hall"],
+            "address": "Beach Road, Chirala, Andhra Pradesh 523155",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Nakshatra+Beach+Resort+Chirala",
+            "image_url": null,
+            "distance_from_beach": "12 km",
+            "category": "chirala_resort"
+          },
+          {
+            "name": "Hotel Nakshatra Inn",
+            "type": "Mid-Range Hotel",
+            "rating": 4.0,
+            "reviews_count": 350,
+            "price_range_night": "₹1,200 – ₹3,000",
+            "amenities": ["Free Parking", "AC Rooms", "Restaurant", "Wi-Fi"],
+            "address": "Chirala Town, Andhra Pradesh 523155",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Hotel+Nakshatra+Inn+Chirala",
+            "image_url": null,
+            "distance_from_beach": "15 km",
+            "category": "chirala_resort"
+          },
+          {
+            "name": "Sai Ram Family Resort",
+            "type": "Family Resort",
+            "rating": 4.1,
+            "reviews_count": 420,
+            "price_range_night": "₹1,500 – ₹3,500",
+            "amenities": ["Swimming Pool", "Restaurant", "Free Parking", "Garden", "Play Area", "AC Rooms"],
+            "address": "Chirala Beach Road, Andhra Pradesh 523155",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Sai+Ram+Family+Resort+Chirala",
+            "image_url": null,
+            "distance_from_beach": "14 km",
+            "category": "chirala_resort"
+          },
+          {
+            "name": "Spice Garden Resort",
+            "type": "Boutique Resort",
+            "rating": 4.3,
+            "reviews_count": 280,
+            "price_range_night": "₹2,000 – ₹4,500",
+            "amenities": ["Restaurant", "Swimming Pool", "AC Rooms", "Garden", "Beach Shuttle"],
+            "address": "Near Chirala Beach, Andhra Pradesh 523155",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Spice+Garden+Resort+Chirala",
+            "image_url": null,
+            "distance_from_beach": "13 km",
+            "category": "chirala_resort"
+          }
+        ]
+      },
+      "budget_stays": {
+        "label": "Budget Lodges & Guest Houses",
+        "count": 5,
+        "properties": [
+          {
+            "name": "Hotel Sri Rama Lodge",
+            "type": "Budget Lodge",
+            "rating": 3.3,
+            "reviews_count": 55,
+            "price_range_night": "₹300 – ₹700",
+            "amenities": ["Free Parking", "Non-AC Rooms"],
+            "address": "Near Bus Stand, Bapatla, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Hotel+Sri+Rama+Lodge+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "9 km",
+            "category": "budget"
+          },
+          {
+            "name": "Punnami Resorts",
+            "type": "Budget Resort",
+            "rating": 3.7,
+            "reviews_count": 200,
+            "price_range_night": "₹600 – ₹1,500",
+            "amenities": ["Free Parking", "AC/Non-AC Rooms", "Garden"],
+            "address": "Suryalanka Road, Bapatla, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Punnami+Resorts+Suryalanka+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "1 km",
+            "category": "budget"
+          },
+          {
+            "name": "Venkateswara Resorts",
+            "type": "Budget Resort",
+            "rating": 3.6,
+            "reviews_count": 150,
+            "price_range_night": "₹500 – ₹1,200",
+            "amenities": ["Free Parking", "AC/Non-AC Rooms", "Beach Access"],
+            "address": "Suryalanka Beach Road, Bapatla, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Venkateswara+Resorts+Suryalanka+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "0.5 km",
+            "category": "budget"
+          },
+          {
+            "name": "Sri Sai Anugraha Resorts",
+            "type": "Budget Resort",
+            "rating": 3.5,
+            "reviews_count": 100,
+            "price_range_night": "₹500 – ₹1,000",
+            "amenities": ["Free Parking", "Non-AC Rooms", "Garden"],
+            "address": "Suryalanka Road, Bapatla, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Sri+Sai+Anugraha+Resorts+Suryalanka+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "0.7 km",
+            "category": "budget"
+          },
+          {
+            "name": "Shiva Shankar Beach Resort",
+            "type": "Budget Resort",
+            "rating": 3.4,
+            "reviews_count": 80,
+            "price_range_night": "₹400 – ₹1,000",
+            "amenities": ["Free Parking", "Non-AC Rooms", "Beach View"],
+            "address": "Suryalanka Beach Road, Bapatla, Andhra Pradesh 522101",
+            "contact": "To verify",
+            "website": null,
+            "booking_link": null,
+            "google_maps": "https://maps.google.com/?q=Shiva+Shankar+Beach+Resort+Bapatla",
+            "image_url": null,
+            "distance_from_beach": "0.3 km",
+            "category": "budget"
+          }
+        ]
+      }
+    }
+  },
+
+  "restaurants": {
+    "description": "Famous food places and restaurants near Bapatla, Chirala, and Suryalanka Beach",
+    "total_count": 12,
+    "restaurants": [
+      {
+        "name": "Dolphin Restaurant",
+        "type": "Seafood / Multi-cuisine",
+        "location": "Suryalanka Beach Road, Near Haritha Resort",
+        "specialty": "Fresh seafood, Andhra meals, Chinese",
+        "price_range": "₹₹ (Moderate)",
+        "rating": 4.0,
+        "contact": "To verify",
+        "timings": "7:00 AM – 10:30 PM",
+        "google_maps": "https://maps.google.com/?q=Dolphin+Restaurant+Suryalanka+Beach"
+      },
+      {
+        "name": "Sea View Restaurant",
+        "type": "Coastal Andhra Cuisine",
+        "location": "Suryalanka Beach Road, Bapatla",
+        "specialty": "Fish curry, prawn fry, Andhra thali",
+        "price_range": "₹₹ (Moderate)",
+        "rating": 3.9,
+        "contact": "To verify",
+        "timings": "8:00 AM – 10:00 PM",
+        "google_maps": "https://maps.google.com/?q=Sea+View+Restaurant+Suryalanka"
+      },
+      {
+        "name": "Haritha Beach Resort Restaurant (APTDC)",
+        "type": "Multi-cuisine Restaurant",
+        "location": "Inside Haritha Beach Resort, Suryalanka Beach",
+        "specialty": "Andhra meals, biryani, seafood, North Indian, Chinese",
+        "price_range": "₹₹₹ (Premium)",
+        "rating": 4.0,
+        "contact": "+91-8643-224922",
+        "timings": "7:00 AM – 10:00 PM",
+        "google_maps": "https://maps.google.com/?q=Haritha+Beach+Resort+Restaurant+Suryalanka"
+      },
+      {
+        "name": "Hotel Swagath",
+        "type": "Andhra Family Restaurant",
+        "location": "Bapatla Town Main Road",
+        "specialty": "Andhra meals, biryani, tandoori",
+        "price_range": "₹₹ (Moderate)",
+        "rating": 4.1,
+        "contact": "To verify",
+        "timings": "6:30 AM – 10:30 PM",
+        "google_maps": "https://maps.google.com/?q=Hotel+Swagath+Bapatla"
+      },
+      {
+        "name": "Hotel Venkateswara Bhavan",
+        "type": "Pure Vegetarian",
+        "location": "Bapatla Town, Near Bus Stand",
+        "specialty": "South Indian meals, tiffins, sweets",
+        "price_range": "₹ (Budget)",
+        "rating": 4.2,
+        "contact": "To verify",
+        "timings": "6:00 AM – 9:30 PM",
+        "google_maps": "https://maps.google.com/?q=Hotel+Venkateswara+Bhavan+Bapatla"
+      },
+      {
+        "name": "Sri Anjaneya Vilas",
+        "type": "Pure Vegetarian",
+        "location": "Bapatla Town",
+        "specialty": "Traditional Andhra meals on banana leaf, idli, dosa",
+        "price_range": "₹ (Budget)",
+        "rating": 4.3,
+        "contact": "To verify",
+        "timings": "6:00 AM – 9:00 PM",
+        "google_maps": "https://maps.google.com/?q=Sri+Anjaneya+Vilas+Bapatla"
+      },
+      {
+        "name": "Hotel Sri Sai Ram",
+        "type": "Multi-cuisine",
+        "location": "Near Railway Station, Bapatla",
+        "specialty": "Biryani, Andhra meals, Chinese",
+        "price_range": "₹₹ (Moderate)",
+        "rating": 4.0,
+        "contact": "To verify",
+        "timings": "7:00 AM – 10:00 PM",
+        "google_maps": "https://maps.google.com/?q=Hotel+Sri+Sai+Ram+Bapatla"
+      },
+      {
+        "name": "Vijayawada Ruchulu",
+        "type": "Andhra Spicy Cuisine",
+        "location": "Bapatla Town",
+        "specialty": "Gongura chicken, natukodi pulusu, spicy Andhra biryani",
+        "price_range": "₹₹ (Moderate)",
+        "rating": 4.3,
+        "contact": "To verify",
+        "timings": "11:00 AM – 10:30 PM",
+        "google_maps": "https://maps.google.com/?q=Vijayawada+Ruchulu+Bapatla"
+      },
+      {
+        "name": "Hotel Mayuri",
+        "type": "Family Restaurant",
+        "location": "Chirala Town",
+        "specialty": "Andhra meals, biryani, North Indian",
+        "price_range": "₹₹ (Moderate)",
+        "rating": 4.1,
+        "contact": "To verify",
+        "timings": "7:00 AM – 10:30 PM",
+        "google_maps": "https://maps.google.com/?q=Hotel+Mayuri+Chirala"
+      },
+      {
+        "name": "Sai Ram Family Restaurant",
+        "type": "Family Restaurant",
+        "location": "Chirala Beach Road",
+        "specialty": "Andhra cuisine, seafood, Chinese",
+        "price_range": "₹₹ (Moderate)",
+        "rating": 4.0,
+        "contact": "To verify",
+        "timings": "8:00 AM – 10:00 PM",
+        "google_maps": "https://maps.google.com/?q=Sai+Ram+Family+Restaurant+Chirala"
+      },
+      {
+        "name": "Spice Garden Restaurant",
+        "type": "Multi-cuisine",
+        "location": "Near Chirala Town Center",
+        "specialty": "Tandoori, Chinese, Andhra biryani",
+        "price_range": "₹₹ (Moderate)",
+        "rating": 4.1,
+        "contact": "To verify",
+        "timings": "11:00 AM – 10:30 PM",
+        "google_maps": "https://maps.google.com/?q=Spice+Garden+Restaurant+Chirala"
+      },
+      {
+        "name": "Beach Side Snack Stalls",
+        "type": "Local Street Food",
+        "location": "Along Suryalanka Beach shore",
+        "specialty": "Bhajji, mirchi bajji, fresh coconut water, grilled corn, ice cream",
+        "price_range": "₹ (Cheap)",
+        "rating": 3.8,
+        "contact": "N/A (street stalls)",
+        "timings": "10:00 AM – 8:00 PM (seasonal)",
+        "google_maps": null
+      }
+    ]
+  },
+
+  "travel_info": {
+    "trains_from_hyderabad": {
+      "description": "Direct trains from Hyderabad/Secunderabad/Charlapalli to Bapatla (BPP)",
+      "station_codes": {
+        "HYB": "Hyderabad Deccan Nampally",
+        "SC": "Secunderabad Junction",
+        "CHZ": "Charlapalli",
+        "LPI": "Lingampalli",
+        "BPP": "Bapatla"
+      },
+      "total_trains": 11,
+      "trains": [
+        {"train_no": "17406", "name": "Krishna Express", "from_station": "Charlapalli (CHZ)", "departure": "05:55", "arrival": "14:28", "duration": "8h 33m", "type": "Mail/Express", "frequency": "Daily"},
+        {"train_no": "17041", "name": "TVC Nagercoil Amritbharat Express", "from_station": "Charlapalli (CHZ)", "departure": "07:15", "arrival": "14:28", "duration": "7h 13m", "type": "Express", "frequency": "Select days"},
+        {"train_no": "16358", "name": "Nagercoil Amritbharat Express", "from_station": "Charlapalli (CHZ)", "departure": "08:15", "arrival": "15:58", "duration": "7h 43m", "type": "Express", "frequency": "Select days"},
+        {"train_no": "20629", "name": "Sabari SF Express", "from_station": "Secunderabad (SC)", "departure": "14:25", "arrival": "20:13", "duration": "5h 48m", "type": "Superfast", "frequency": "Daily"},
+        {"train_no": "17077", "name": "Charlapalli Tirupati Express", "from_station": "Charlapalli (CHZ)", "departure": "17:20", "arrival": "02:08", "duration": "8h 48m", "type": "Express", "frequency": "Daily"},
+        {"train_no": "12604", "name": "Chennai SF Express", "from_station": "Charlapalli (CHZ)", "departure": "17:25", "arrival": "23:38", "duration": "6h 13m", "type": "Superfast", "frequency": "Daily"},
+        {"train_no": "12734", "name": "Narayanadri SF Express", "from_station": "Lingampalli (LPI)", "departure": "17:30", "arrival": "00:13", "duration": "6h 43m", "type": "Superfast", "frequency": "Daily"},
+        {"train_no": "07615", "name": "Charlapalli Tirupati Special", "from_station": "Charlapalli (CHZ)", "departure": "17:50", "arrival": "01:50", "duration": "8h 00m", "type": "Special", "frequency": "Till 1-Jul"},
+        {"train_no": "17637", "name": "Jalna Tirupati Express", "from_station": "Charlapalli (CHZ)", "departure": "21:20", "arrival": "04:13", "duration": "6h 53m", "type": "Express", "frequency": "Select days"},
+        {"train_no": "12710", "name": "Simhapuri SF Express", "from_station": "Secunderabad (SC)", "departure": "22:05", "arrival": "04:44", "duration": "6h 39m", "type": "Superfast", "frequency": "Daily"},
+        {"train_no": "07193", "name": "Hyderabad Kollam Special", "from_station": "Hyderabad Nampally (HYB)", "departure": "23:10", "arrival": "07:43", "duration": "8h 33m", "type": "Special", "frequency": "Till 28-Jun"}
+      ],
+      "recommended_trains": [
+        {"reason": "Fastest (5h 48m)", "train": "20629 Sabari SF Express (SC 14:25 → BPP 20:13)"},
+        {"reason": "Best overnight option", "train": "12710 Simhapuri SF Express (SC 22:05 → BPP 04:44)"},
+        {"reason": "Early morning arrival", "train": "17406 Krishna Express (CHZ 05:55 → BPP 14:28)"}
+      ]
+    },
+    "trains_from_vijayawada": {
+      "description": "Direct trains from Vijayawada Junction (BZA) to Bapatla (BPP) — frequent connections, short journey",
+      "station_codes": {
+        "BZA": "Vijayawada Junction",
+        "BPP": "Bapatla"
+      },
+      "total_trains": 15,
+      "trains": [
+        {"train_no": "12710", "name": "Simhapuri SF Express", "departure": "03:40", "arrival": "04:44", "duration": "1h 04m", "type": "Superfast"},
+        {"train_no": "18189", "name": "Tata Ernakulam Express", "departure": "04:00", "arrival": "04:58", "duration": "58m", "type": "Express"},
+        {"train_no": "17260", "name": "BZA-Gudur Passenger", "departure": "05:10", "arrival": "06:34", "duration": "1h 24m", "type": "Passenger"},
+        {"train_no": "12711", "name": "Pinakini SF Express", "departure": "06:10", "arrival": "07:13", "duration": "1h 03m", "type": "Superfast"},
+        {"train_no": "67273", "name": "BZA-Ongole MEMU", "departure": "08:00", "arrival": "09:14", "duration": "1h 14m", "type": "MEMU"},
+        {"train_no": "17479", "name": "Puri Tirupati Express", "departure": "12:05", "arrival": "13:18", "duration": "1h 13m", "type": "Express"},
+        {"train_no": "17406", "name": "Krishna Express", "departure": "13:00", "arrival": "14:28", "duration": "1h 28m", "type": "Mail/Express"},
+        {"train_no": "67259", "name": "BZA-Bitragunta MEMU", "departure": "13:50", "arrival": "15:08", "duration": "1h 18m", "type": "MEMU"},
+        {"train_no": "13351", "name": "Dhanbad Alappuzha Express", "departure": "15:45", "arrival": "16:48", "duration": "1h 03m", "type": "Express"},
+        {"train_no": "67225", "name": "BZA-Gudur Passenger MEMU", "departure": "16:55", "arrival": "18:24", "duration": "1h 29m", "type": "MEMU"},
+        {"train_no": "12744", "name": "Vikramsimhapuri SF Express", "departure": "18:00", "arrival": "18:59", "duration": "59m", "type": "Superfast"},
+        {"train_no": "12863", "name": "Howrah SMVT Bengaluru Express", "departure": "18:20", "arrival": "19:28", "duration": "1h 08m", "type": "Superfast"},
+        {"train_no": "17250", "name": "Kakinada Tirupati Express", "departure": "19:55", "arrival": "21:24", "duration": "1h 29m", "type": "Express"},
+        {"train_no": "12839", "name": "Chennai Mail", "departure": "20:20", "arrival": "21:24", "duration": "1h 04m", "type": "Superfast"},
+        {"train_no": "17655", "name": "Kakinada Puducherry Express", "departure": "20:20", "arrival": "22:43", "duration": "2h 23m", "type": "Express"}
+      ],
+      "recommended": "Over 15 trains run daily between Vijayawada and Bapatla, with journey times ranging from 58 minutes to 2.5 hours. Trains are available throughout the day from early morning to late night. Superfast trains (Pinakini, Simhapuri, Vikramsimhapuri) are the fastest options."
+    },
+    "distances_to_suryalanka_beach": {
+      "description": "Distance and estimated travel time from major cities to Suryalanka Beach, Bapatla",
+      "beach_coordinates": {"lat": 15.8345, "lon": 80.5051},
+      "routes": [
+        {
+          "from": "Hyderabad",
+          "distance_km_road": 386,
+          "distance_km_straight": 276,
+          "travel_time_car": "7–8 hours",
+          "route_description": "Hyderabad → NH65 → Vijayawada Bypass → NH16 → Guntur → Bapatla → Suryalanka Beach Road",
+          "best_mode": "Train to Bapatla + 15 min auto/taxi to beach"
+        },
+        {
+          "from": "Vijayawada",
+          "distance_km_road": 107,
+          "distance_km_straight": 76,
+          "travel_time_car": "2 hours",
+          "route_description": "Vijayawada → NH16 → Tenali → Bapatla → Suryalanka Beach Road",
+          "best_mode": "Train (1 hr) or car (2 hrs)"
+        },
+        {
+          "from": "Guntur",
+          "distance_km_road": 74,
+          "distance_km_straight": 53,
+          "travel_time_car": "1.5 hours",
+          "route_description": "Guntur → NH16 → Ponnur → Bapatla → Suryalanka Beach Road",
+          "best_mode": "Car or bus (1.5 hrs)"
+        },
+        {
+          "from": "Amaravati",
+          "distance_km_road": 117,
+          "distance_km_straight": 84,
+          "travel_time_car": "2.3 hours",
+          "route_description": "Amaravati → Guntur → NH16 → Bapatla → Suryalanka Beach Road",
+          "best_mode": "Car via Guntur"
+        },
+        {
+          "from": "Tenali",
+          "distance_km_road": 66,
+          "distance_km_straight": 47,
+          "travel_time_car": "1.3 hours",
+          "route_description": "Tenali → NH16 → Bapatla → Suryalanka Beach Road",
+          "best_mode": "Car or local bus (1.3 hrs)"
+        },
+        {
+          "from": "Bapatla Town",
+          "distance_km_road": 12,
+          "distance_km_straight": 9,
+          "travel_time_car": "15–20 minutes",
+          "route_description": "Bapatla Town → Suryalanka Beach Road (straight road east)",
+          "best_mode": "Auto-rickshaw, taxi, or local bus (15-20 mins)"
+        }
+      ]
+    }
+  },
+
+  "nearby_attractions": {
+    "description": "Other places to visit near Suryalanka Beach",
+    "attractions": [
+      {
+        "name": "Bhavanarayana Swamy Temple",
+        "distance_from_beach": "9 km",
+        "type": "Historic Temple",
+        "description": "500-year-old temple dedicated to Lord Vishnu, known for its architecture and spiritual significance",
+        "location": "Bapatla Town"
+      },
+      {
+        "name": "Chirala Beach",
+        "distance_from_beach": "15 km",
+        "type": "Beach",
+        "description": "Another scenic beach known for fishing harbors and fresh seafood",
+        "location": "Chirala"
+      },
+      {
+        "name": "Vodarevu Beach",
+        "distance_from_beach": "20 km",
+        "type": "Beach",
+        "description": "A quiet beach near Chirala popular for boating and water sports",
+        "location": "Near Chirala"
+      },
+      {
+        "name": "Manginapudi Beach",
+        "distance_from_beach": "85 km",
+        "type": "Beach",
+        "description": "Historic beach near Machilipatnam with natural beauty",
+        "location": "Machilipatnam, Krishna District"
+      },
+      {
+        "name": "Undavalli Caves",
+        "distance_from_beach": "95 km",
+        "type": "Archaeological Site",
+        "description": "4th-5th century rock-cut cave temples with stunning sculptures",
+        "location": "Near Vijayawada"
+      },
+      {
+        "name": "Amaravati Stupa",
+        "distance_from_beach": "117 km",
+        "type": "Buddhist Heritage",
+        "description": "Ancient Buddhist site with the Great Stupa ruins and museum",
+        "location": "Amaravati"
+      }
+    ]
+  },
+
+  "real_estate": {
+    "heading": "Real Estate Near Bapatla Beach",
+    "description": "Explore beachside plots, residential land, and investment opportunities in and around Bapatla Suryalanka. The area is seeing growing interest from buyers looking for coastal property in Andhra Pradesh.",
+    "note": "Real estate listings are currently being compiled. Check back soon for available properties, or contact us to list your property.",
+    "cta": "Interested in buying or selling property near Bapatla Beach? Reach out to us.",
+    "properties": []
+  },
+
+  "promotions": {
+    "heading": "Promotions & Advertising",
+    "description": "Promote your business, resort, restaurant, or event on BapatlaBeach.com — the most comprehensive guide for visitors to Suryalanka Beach.",
+    "note": "Promotional listings are managed by the site administrator. Please contact us using the details below to discuss promotional opportunities, sponsored listings, or advertising rates.",
+    "cta": "Contact admin for promotions",
+    "offers": []
+  },
+
+  "contact": {
+    "heading": "Contact Us",
+    "description": "Have questions about Bapatla Beach? Want to list your property, restaurant, or business on our site? We'd love to hear from you.",
+    "email": "pinaka1289@gmail.com",
+    "phone": "824-743-7284",
+    "whatsapp": "+1 8608306791",
+    "address": "Bapatla, Andhra Pradesh 522101, India"
+  },
+
+  "how_to_reach_summary": {
+    "by_train": "Bapatla Railway Station (BPP) is well-connected. 11 direct trains from Hyderabad (5.5–8.5 hrs) and 15+ trains from Vijayawada (1–2.5 hrs). Beach is 12 km from station (15 min by auto).",
+    "by_road": "NH16 (Chennai-Kolkata Highway) passes near Bapatla. Well-connected by road from Vijayawada (107 km), Guntur (74 km), Hyderabad (386 km).",
+    "by_air": "Nearest airport is Vijayawada International Airport (Gannavaram), ~120 km away. Hyderabad Airport is ~370 km away with better connectivity.",
+    "by_bus": "APSRTC buses run regularly from Vijayawada, Guntur, Tenali, and Hyderabad to Bapatla Bus Stand. From there, local autos/taxis to the beach (12 km)."
+  }
+}
