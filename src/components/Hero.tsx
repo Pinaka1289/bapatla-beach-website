@@ -105,7 +105,7 @@ export default function Hero() {
           >
             <img
               src="/images/logo.svg"
-              alt="Bapatla Beach"
+              alt="Bapatla Suryalanka Beach — Andhra's Hidden Coastal Gem"
               className="w-20 h-20 sm:w-24 sm:h-24 mx-auto rounded-full border-4 border-white/30 shadow-2xl"
             />
           </div>
@@ -115,7 +115,7 @@ export default function Hero() {
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white mb-4 leading-tight">
               Discover{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-sunset-400 to-coral-400">
-                Bapatla Beach
+                Bapatla Suryalanka Beach
               </span>
             </h1>
           </div>
@@ -126,7 +126,7 @@ export default function Hero() {
               Andhra&apos;s Hidden Coastal Gem
             </p>
             <p className="text-sm sm:text-base text-white/60 mb-8 max-w-xl mx-auto">
-              Golden sands, gentle waves, and serene sunrises await at Suryalanka Beach
+              Golden sands, gentle waves, and serene sunrises await at Bapatla Suryalanka Beach
             </p>
           </div>
 

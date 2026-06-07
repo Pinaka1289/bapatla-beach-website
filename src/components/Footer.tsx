@@ -22,7 +22,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <img
                 src="/images/logo.svg"
-                alt="Bapatla Beach"
+                alt="Bapatla Suryalanka Beach — Coastal Travel Guide"
                 className="w-10 h-10 rounded-full border-2 border-ocean-400"
               />
               <span className="font-bold text-xl">
@@ -30,8 +30,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-ocean-200 text-sm leading-relaxed mb-4">
-              Your complete guide to Suryalanka Beach, Bapatla — Andhra Pradesh&apos;s
-              hidden coastal gem. Discover golden sands, gentle waves, and unforgettable sunrises.
+              Your complete guide to Bapatla Suryalanka Beach — Andhra Pradesh&apos;s
+              hidden coastal gem. Discover golden sands, gentle waves, and unforgettable sunrises along the Bay of Bengal.
             </p>
             <p className="text-ocean-300 text-xs">
               Made with <Heart size={12} className="inline text-coral-500 fill-coral-500" /> for Bapatla

@@ -53,7 +53,7 @@ export default function Navbar() {
             className="flex items-center gap-2 group">
             <img
               src="/images/logo.svg"
-              alt="Bapatla Beach Logo"
+              alt="Bapatla Suryalanka Beach Logo — Andhra Pradesh Travel Guide"
               className="h-8 w-8 sm:h-10 sm:w-10 rounded-full object-cover border-2 border-ocean-400 group-hover:border-sunset-500 transition-colors"
             />
             <span className={`font-bold text-lg sm:text-xl transition-colors duration-500 ${
