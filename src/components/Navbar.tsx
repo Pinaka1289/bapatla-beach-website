@@ -56,12 +56,13 @@ export default function Navbar() {
               alt="Bapatla Suryalanka Beach Logo — Andhra Pradesh Travel Guide"
               className="h-8 w-8 sm:h-10 sm:w-10 rounded-full object-cover border-2 border-ocean-400 group-hover:border-sunset-500 transition-colors"
             />
-            <span className={`font-bold text-lg sm:text-xl transition-colors duration-500 ${
+            <span className={`font-bold text-sm sm:text-base leading-tight transition-colors duration-500 ${
               scrolled
                 ? 'text-ocean-700 dark:text-ocean-300'
                 : 'text-white'
             }`}>
-              Bapatla<span className="text-sunset-500">Suryalanka</span>Beach
+              <span className="text-sunset-500">Suryalanka</span> Beach<br />
+              <span className="text-xs sm:text-sm opacity-70">Bapatla</span>
             </span>
           </a>
 

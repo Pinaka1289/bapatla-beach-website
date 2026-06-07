@@ -25,8 +25,9 @@ export default function Footer() {
                 alt="Bapatla Suryalanka Beach — Coastal Travel Guide"
                 className="w-10 h-10 rounded-full border-2 border-ocean-400"
               />
-              <span className="font-bold text-xl">
-                Bapatla<span className="text-sunset-400">Suryalanka</span>Beach
+              <span className="font-bold text-lg leading-tight">
+                <span className="text-sunset-400">Suryalanka</span> Beach<br />
+                <span className="text-xs text-ocean-300">Bapatla</span>
               </span>
             </div>
             <p className="text-ocean-200 text-sm leading-relaxed mb-4">
