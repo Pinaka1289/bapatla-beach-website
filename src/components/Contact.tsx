@@ -55,7 +55,7 @@ function ContactIllustration() {
 
 export default function Contact({ data }: Props) {
   const whatsappClean = data.whatsapp.replace(/[\s+\-()]/g, '');
-  const whatsappUrl = `https://wa.me/${whatsappClean}?text=Hello%2C%20I%20found%20you%20on%20BapatlaBeach.com`;
+  const whatsappUrl = `https://wa.me/${whatsappClean}?text=Hello%2C%20I%20found%20you%20on%20SuryalankaBeach.com`;
 
   return (
     <section id="contact" className="py-16 sm:py-20 lg:py-24 bg-[var(--bg-primary)] relative overflow-hidden">
@@ -144,7 +144,7 @@ export default function Contact({ data }: Props) {
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                   <a
-                    href={`mailto:${data.email}?subject=Inquiry%20from%20BapatlaBeach.com`}
+                    href={`mailto:${data.email}?subject=Inquiry%20from%20SuryalankaBeach.com`}
                     className="inline-flex items-center gap-2 px-6 py-3 bg-ocean-600 hover:bg-ocean-700 text-white rounded-xl font-medium transition-colors shadow-md hover:shadow-lg"
                   >
                     <Send size={18} />

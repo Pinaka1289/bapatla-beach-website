@@ -140,7 +140,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-10 pt-6 border-t border-ocean-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-ocean-400 text-xs">
-            &copy; {new Date().getFullYear()} BapatlaBeach.com — All information is best-effort from public sources.
+            &copy; {new Date().getFullYear()} SuryalankaBeach.com — All information is best-effort from public sources.
             Verify before travel.
           </p>
           <p className="text-ocean-500 text-xs">

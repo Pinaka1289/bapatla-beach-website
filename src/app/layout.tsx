@@ -94,18 +94,18 @@ export const metadata: Metadata = {
     'Vodarevu Beach',
     'Bapatla beach festival',
   ],
-  authors: [{ name: 'BapatlaBeach.com' }],
-  creator: 'BapatlaBeach.com',
-  publisher: 'BapatlaBeach.com',
+  authors: [{ name: 'SuryalankaBeach.com' }],
+  creator: 'SuryalankaBeach.com',
+  publisher: 'SuryalankaBeach.com',
   openGraph: {
     title: 'Bapatla Suryalanka Beach — Andhra\'s Hidden Coastal Gem | Complete Travel Guide 2026',
     description: 'Golden sands, gentle waves, stunning sunrises. Your complete guide to Bapatla Suryalanka Beach — 22 hotels, 12 restaurants, train schedules, attractions & more.',
     type: 'website',
     locale: 'en_IN',
-    siteName: 'BapatlaBeach.com',
+    siteName: 'SuryalankaBeach.com',
     images: [
       {
-        url: 'https://bapatlabeach.com/images/logo.png',
+        url: 'https://suryalankabeach.com/images/logo.png',
         width: 400,
         height: 400,
         alt: 'Bapatla Suryalanka Beach Logo',
@@ -116,16 +116,16 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Bapatla Suryalanka Beach — Andhra\'s Hidden Coastal Gem',
     description: 'Golden sands, gentle waves, stunning sunrises. Complete guide to Bapatla Suryalanka Beach — hotels, restaurants, train schedules & attractions.',
-    images: ['https://bapatlabeach.com/images/logo.png'],
+    images: ['https://suryalankabeach.com/images/logo.png'],
   },
   alternates: {
-    canonical: 'https://bapatlabeach.com',
+    canonical: 'https://suryalankabeach.com',
     languages: {
-      'en-IN': 'https://bapatlabeach.com',
+      'en-IN': 'https://suryalankabeach.com',
     },
   },
   other: {
-    'og:see_also': 'https://bapatlabeach.org',
+    'og:see_also': 'https://bapatlabeach.com',
   },
   robots: {
     index: true,
@@ -220,10 +220,11 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
-              name: 'BapatlaBeach.com',
-              alternateName: ['Bapatla Beach Guide', 'Suryalanka Beach Guide', 'BapatlaBeach.org'],
-              url: 'https://bapatlabeach.com',
+              name: 'SuryalankaBeach.com',
+              alternateName: ['Bapatla Beach Guide', 'Suryalanka Beach Guide', 'BapatlaBeach.com', 'BapatlaBeach.org'],
+              url: 'https://suryalankabeach.com',
               sameAs: [
+                'https://suryalankabeach.com',
                 'https://bapatlabeach.com',
                 'https://bapatlabeach.org',
               ],
@@ -232,7 +233,7 @@ export default function RootLayout({
               inLanguage: 'en-IN',
               potentialAction: {
                 '@type': 'SearchAction',
-                target: 'https://bapatlabeach.com/search?q={search_term_string}',
+                target: 'https://suryalankabeach.com/search?q={search_term_string}',
                 'query-input': 'required name=search_term_string',
               },
             }),
