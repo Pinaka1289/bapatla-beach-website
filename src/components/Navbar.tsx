@@ -61,7 +61,7 @@ export default function Navbar() {
                 ? 'text-ocean-700 dark:text-ocean-300'
                 : 'text-white'
             }`}>
-              Bapatla<span className="text-sunset-500">Beach</span>
+              Bapatla<span className="text-sunset-500">Suryalanka</span>Beach
             </span>
           </a>
 

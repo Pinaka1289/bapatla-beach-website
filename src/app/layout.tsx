@@ -258,7 +258,7 @@ export default function RootLayout({
                 },
                 {
                   '@type': 'Question',
-                  name: 'How to reach Bapatla Beach from Hyderabad?',
+                  name: 'How to reach Bapatla Suryalanka Beach from Hyderabad?',
                   acceptedAnswer: {
                     '@type': 'Answer',
                     text: '11 direct trains run from Hyderabad/Secunderabad/Charlapalli to Bapatla (BPP) station, taking 5.5–8.5 hours. The beach is 12 km (15 min by auto) from Bapatla station. By road, it is 386 km via NH65 and NH16 (7–8 hours).',
@@ -274,7 +274,7 @@ export default function RootLayout({
                 },
                 {
                   '@type': 'Question',
-                  name: 'Is Bapatla Beach safe for swimming?',
+                  name: 'Is Bapatla Suryalanka Beach safe for swimming?',
                   acceptedAnswer: {
                     '@type': 'Answer',
                     text: 'Yes, Suryalanka Beach is considered one of the safest swimming beaches in Andhra Pradesh due to its shallow waters and gentle slope. However, always exercise caution during monsoon season when the sea can be rough.',
@@ -282,7 +282,7 @@ export default function RootLayout({
                 },
                 {
                   '@type': 'Question',
-                  name: 'What are the nearby attractions to Bapatla Beach?',
+                  name: 'What are the nearby attractions to Bapatla Suryalanka Beach?',
                   acceptedAnswer: {
                     '@type': 'Answer',
                     text: 'Nearby attractions include Bhavanarayana Swamy Temple (9 km), Chirala Beach (15 km), Vodarevu Beach (20 km), Undavalli Caves (95 km), and Amaravati Stupa (117 km).',
@@ -301,7 +301,7 @@ export default function RootLayout({
                   name: 'Is Bapatla Suryalanka Beach good for real estate investment?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Yes, Bapatla Beach area is an emerging real estate destination with growing interest in beach plots, resort properties, and residential layouts. With its proximity to Bapatla town (9 km), railway station, and NH16 highway, the area is seeing appreciation. Several layout projects are available near Suryalanka Beach Road with prices starting from ₹5 lakhs per plot.',
+                    text: 'Yes, Bapatla Suryalanka Beach area is an emerging real estate destination with growing interest in beach plots, resort properties, and residential layouts. With its proximity to Bapatla town (9 km), railway station, and NH16 highway, the area is seeing appreciation. Several layout projects are available near Suryalanka Beach Road with prices starting from ₹5 lakhs per plot.',
                   },
                 },
               ],

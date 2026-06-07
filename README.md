@@ -1,4 +1,4 @@
-# Bapatla Beach Website
+# Bapatla Suryalanka Beach Website
 
 Complete travel guide for **Bapatla Suryalanka Beach** — Andhra Pradesh's hidden coastal gem on the Bay of Bengal.
 
